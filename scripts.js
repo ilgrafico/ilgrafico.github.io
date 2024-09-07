@@ -5,7 +5,9 @@ $('audio').on('playing', function() {
 
 //click yes btn
 function clickYesButton() {
-    alert('I love you too <3');
+    // alert('I love you too <3');
+    document.getElementById('loveMeDiv').style.display = "none";
+    document.getElementById('imgLove').style.visibility = 'visible';
 }
 
 //move button on hover
