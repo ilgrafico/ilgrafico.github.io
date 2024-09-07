@@ -8,6 +8,7 @@ function clickYesButton() {
     // alert('I love you too <3');
     document.getElementById('loveMeDiv').style.display = "none";
     document.getElementById('imgLove').style.visibility = 'visible';
+    document.getElementById('imgLove').style.display = "block";
 }
 
 //move button on hover
