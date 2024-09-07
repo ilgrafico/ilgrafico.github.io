@@ -3,7 +3,7 @@
 body {
     background-image: url("./img/background-love.jpg");
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: cover;
   } 
 
 h1 {
