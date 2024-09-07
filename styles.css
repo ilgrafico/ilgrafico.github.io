@@ -1,16 +1,13 @@
 /* set up */
 
 body {
-    background-image: url("/img/background.jpg");
+    background-image: url("./img/background-love.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
   } 
 
 h1 {
-    position: absolute;
-    left: 500px;
-    top: 200px;
-    background-color: hsl(0, 88%, 51%); /* red */
+    background-color: hsl(0, 88%, 51%);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -18,11 +15,9 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 10px;
 }
 #yes-button {
-    position: absolute;
-    left: 450px;
-    top: 300px;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -32,6 +27,7 @@ h1 {
     display: inline-block;
     font-size: 16px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
 }
 #no-button {
     position: absolute;
@@ -46,4 +42,5 @@ h1 {
     display: inline-block;
     font-size: 16px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
 }

@@ -1,4 +1,11 @@
+$('audio').on('playing', function() {
+    document.getElementById('loveMeDiv').style.display = "block";
+    document.getElementById('player').style.display = "none";
+});
 
+function hideLoveMe(){
+    document.getElementById('loveMeDiv').style.display = "none";
+}
 
 //click yes btn
 function clickYesButton() {
@@ -8,8 +15,8 @@ function clickYesButton() {
 //move button on hover
 function hoverNoButton() {
     // random from 0 to 1, then multiply with screen size
-    let x = Math.random() * window.innerWidth;
-    let y = Math.random() * window.innerHeight;
+    let x = Math.random() * (window.innerWidth-100);
+    let y = Math.random() * (window.innerHeight-100);
 
     document.getElementById('no-button').style.left = x + 'px';
     document.getElementById('no-button').style.top = y +'px';
